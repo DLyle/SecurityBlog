@@ -1,0 +1,17 @@
+<!DOCTYPE html><html>
+<head>
+<script  src="XSS.js"></script>
+<script  src="jquery-1.9.1.min.js"></script>
+<script  src="underscore-min.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="mystyles.css">
+</head>
+<body>
+<h1>Test XSS</h1>
+<input type="text" id="thepost"></input>
+<input onclick="newPost()" type="button" value="POST" ></input>
+<input type="checkbox" id="escape">Escape Content</input>
+<div id="postList">
+</div>
+</body>
+</html>
